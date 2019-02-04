@@ -43,9 +43,13 @@ Nos specs sont dans notre readme juste ici
 ### Repository
 https://github.com/DenisGuiraudet/supercopter.git
 
-### Build IC
-Travis
+### IC
+Travis : https://travis-ci.com/DenisGuiraudet/supercopter
 connaissance du systeme par des membres du groupe
+
+### Build
+Base du projet voué a changer
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ### Deployment
 A voir
