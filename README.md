@@ -36,11 +36,16 @@ Chanel : team_supercopter
 ### Specs 
 Nos specs sont dans notre readme juste ici
 
+### Suivit
+ 	GitHub Project
+	Gesttion des PR rattacher a des issues
+
 ### Repository
 https://github.com/DenisGuiraudet/supercopter.git
 
 ### Build IC
 Travis
+connaissance du systeme par des membres du groupe
 
 ### Deployment
 A voir
@@ -48,4 +53,17 @@ A voir
 ### Environement Dev
 Docker
 
+### Techno
+Angular.io / SASS / html5
+	Connaissance de Angular par plusieurs membres du groupes et envie de
+
+mongoDB
+	Base de donné simple et adapté à Angular
+
+### Code Style
+	TS lint
+
+### Test 
+Karma
+Cypress
 
