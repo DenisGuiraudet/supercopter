@@ -1,6 +1,11 @@
 # Supercopter
 
 M1 ICE project
+Années 2018 - 2019
+
+Simaluation de l'occation d'hélicopter
+## TEAM
+Denis Guiraudet, Matthieu Orriere, Arnaud Sibade et Alexandre Pausé
 
 ## Development server
 
