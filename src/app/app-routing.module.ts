@@ -1,8 +1,8 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
  
-import { PageLoginComponent }   from './page-login/page-login.component';
-import { PageListingComponent }   from './page-listing/page-listing.component';
+import { PageLoginComponent }   from './pages/page-login/page-login.component';
+import { PageListingComponent } from './pages/page-listing/page-listing.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },

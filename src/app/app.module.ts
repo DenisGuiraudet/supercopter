@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { PageLoginComponent } from './page-login/page-login.component';
-import { PageListingComponent } from './page-listing/page-listing.component';
+import { PageLoginComponent } from './pages/page-login/page-login.component';
+import { PageListingComponent } from './pages/page-listing/page-listing.component';
 
 @NgModule({
   imports: [
