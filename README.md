@@ -29,7 +29,6 @@ Travis : https://travis-ci.com/DenisGuiraudet/supercopter
 Knowledge of this techno by some group members
 
 ### Build
-This is going to evolve and change
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ### Deployment
