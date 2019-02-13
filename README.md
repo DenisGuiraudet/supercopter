@@ -3,7 +3,7 @@
 M1 ICE project
 Années 2018 - 2019
 
-Simaluation de l'occation d'hélicopter
+Simulation de location d'hélicoptère
 ## TEAM
 Denis Guiraudet, Matthieu Orriere, Arnaud Sibade et Alexandre Pausé
 
