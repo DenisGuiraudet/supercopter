@@ -3,15 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { PageLoginComponent } from './pages/page-login/page-login.component';
-import { PageListingComponent } from './pages/page-listing/page-listing.component';
-import { GstAddComponent } from './gst-add/gst-add.component';
-import { GstGetComponent } from './gst-get/gst-get.component';
-import { GstEditComponent } from './gst-edit/gst-edit.component';
+import { ChopperAddComponent } from './chopper/chopper-add/chopper-add.component';
+import { ChopperGetComponent } from './chopper/chopper-get/chopper-get.component';
+import { ChopperEditComponent } from './chopper/chopper-edit/chopper-edit.component';
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { BusinessService } from './business.service';
+import { ChopperService } from './chopper.service';
 
 
 
@@ -26,13 +24,11 @@ import { BusinessService } from './business.service';
   ],
   declarations: [
     AppComponent,
-    PageLoginComponent,
-    PageListingComponent,
-    GstAddComponent,
-    GstGetComponent,
-    GstEditComponent
+    ChopperAddComponent,
+    ChopperGetComponent,
+    ChopperEditComponent
   ],
-  providers: [ BusinessService ],
+  providers: [ ChopperService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageListingComponent } from './page-listing.component';
+import { ChopperEditComponent } from './chopper-edit.component';
 
-describe('PageListingComponent', () => {
-  let component: PageListingComponent;
-  let fixture: ComponentFixture<PageListingComponent>;
+describe('ChopperEditComponent', () => {
+  let component: ChopperEditComponent;
+  let fixture: ComponentFixture<ChopperEditComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageListingComponent ]
+      declarations: [ ChopperEditComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PageListingComponent);
+    fixture = TestBed.createComponent(ChopperEditComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,35 +1,25 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
  
-import { PageLoginComponent }   from './pages/page-login/page-login.component';
-import { PageListingComponent } from './pages/page-listing/page-listing.component';
-import { GstAddComponent } from './gst-add/gst-add.component';
-import { GstEditComponent } from './gst-edit/gst-edit.component';
-import { GstGetComponent } from './gst-get/gst-get.component';
+import { ChopperAddComponent } from './chopper/chopper-add/chopper-add.component';
+import { ChopperEditComponent } from './chopper/chopper-edit/chopper-edit.component';
+import { ChopperGetComponent } from './chopper/chopper-get/chopper-get.component';
 
 const routes: Routes = [
   { 
-    path: '', redirectTo: '/business', pathMatch: 'full' 
-  },
-  { 
-    path: 'login', 
-    component: PageLoginComponent 
-  },
-  { 
-    path: 'listing', 
-    component: PageListingComponent 
+    path: '', redirectTo: '/chopper', pathMatch: 'full' 
   },
   {
-    path: 'business/create',
-    component: GstAddComponent
+    path: 'chopper/create',
+    component: ChopperAddComponent
   },
   {
-    path: 'business/edit/:id',
-    component: GstEditComponent
+    path: 'chopper/edit/:id',
+    component: ChopperEditComponent
   },
   {
-    path: 'business',
-    component: GstGetComponent
+    path: 'chopper',
+    component: ChopperGetComponent
   }
 
 ];

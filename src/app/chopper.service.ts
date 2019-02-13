@@ -4,47 +4,47 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class BusinessService {
+export class ChopperService {
 
-  uri = 'http://localhost:4000/business';
+  uri = 'http://localhost:4000/chopper';
 
   constructor(private http: HttpClient) { }
 
-  getBusinesses() {
+  getChopperes() {
     return this
            .http
            .get(`${this.uri}`);
   }
 
-  addBusiness(person_name, business_name, business_gst_number) {
+  addChopper(chopper_name, chopper_brand, chopper_place) {
     const obj = {
-      person_name: person_name,
-      business_name: business_name,
-      business_gst_number: business_gst_number
+      chopper_name: chopper_name,
+      chopper_brand: chopper_brand,
+      chopper_place: chopper_place
     };
     console.log(obj);
     this.http.post(`${this.uri}/add`, obj)
         .subscribe(res => console.log('Done'));
   }
 
-  editBusiness(id) {
+  editChopper(id) {
     return this
             .http
             .get(`${this.uri}/edit/${id}`);
   }
 
-  updateBusiness(person_name, business_name, business_gst_number, id) {
+  updateChopper(chopper_name, chopper_brand, chopper_place, id) {
 
     const obj = {
-        person_name: person_name,
-        business_name: business_name,
-        business_gst_number: business_gst_number
+        chopper_name: chopper_name,
+        chopper_brand: chopper_brand,
+        chopper_place: chopper_place
       };
     this
     return this.http.post(`${this.uri}/update/${id}`, obj);
   }
 
-  deleteBusiness(id) {
+  deleteChopper(id) {
     return this
               .http
               .get(`${this.uri}/delete/${id}`);
