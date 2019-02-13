@@ -18,7 +18,7 @@ Channel : team_supercopter
 The project specs are specify just here in this Readme
 
 ### Following
- 	We chose to manage the tasks and issues with GitHub Project
+ 	We chose to manage the tasks and issues with [GitHub Project](https://github.com/DenisGuiraudet/ICE_supercopter/projects/1)
 	PR management make with a link to issues
 
 ### Repository
