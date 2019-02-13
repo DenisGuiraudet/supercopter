@@ -15,7 +15,7 @@ Join us on [Slack](https://courscollab2018.slack.com/)
 Channel : team_supercopter
 
 ### Specs 
-The project specs are specify just here in this Readme
+The project specs are specified just here in this Readme
 
 ### Following
  	We chose to manage the tasks and issues with GitHub Project
