@@ -18,4 +18,3 @@ install:
 
 script:
 - ng build
-- ng test --watch=false
