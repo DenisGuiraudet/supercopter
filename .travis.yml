@@ -17,4 +17,5 @@ install:
 - npm install
 
 script:
-- npm run build
+- ng build
+- ng test --watch=false
