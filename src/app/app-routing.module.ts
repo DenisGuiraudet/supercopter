@@ -1,13 +1,27 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
  
-import { PageLoginComponent }   from './pages/page-login/page-login.component';
-import { PageListingComponent } from './pages/page-listing/page-listing.component';
+import { ChopperAddComponent } from './chopper/chopper-add/chopper-add.component';
+import { ChopperEditComponent } from './chopper/chopper-edit/chopper-edit.component';
+import { ChopperGetComponent } from './chopper/chopper-get/chopper-get.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
-  { path: 'login', component: PageLoginComponent },
-  { path: 'listing', component: PageListingComponent }
+  { 
+    path: '', redirectTo: '/chopper', pathMatch: 'full' 
+  },
+  {
+    path: 'chopper/create',
+    component: ChopperAddComponent
+  },
+  {
+    path: 'chopper/edit/:id',
+    component: ChopperEditComponent
+  },
+  {
+    path: 'chopper',
+    component: ChopperGetComponent
+  }
+
 ];
  
 @NgModule({

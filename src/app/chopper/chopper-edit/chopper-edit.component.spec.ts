@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageLoginComponent } from './page-login.component';
+import { ChopperEditComponent } from './chopper-edit.component';
 
-describe('PageLoginComponent', () => {
-  let component: PageLoginComponent;
-  let fixture: ComponentFixture<PageLoginComponent>;
+describe('ChopperEditComponent', () => {
+  let component: ChopperEditComponent;
+  let fixture: ComponentFixture<ChopperEditComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageLoginComponent ]
+      declarations: [ ChopperEditComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PageLoginComponent);
+    fixture = TestBed.createComponent(ChopperEditComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
