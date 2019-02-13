@@ -40,7 +40,7 @@ Docker
 
 ### Techno
  - Angular.io / SASS / html5
-	Knowledge of Angular by some group members and want to improve our skill
+Why ?	Knowledge of Angular by some group members and want to improve our skill
 
  - mongoDB
 	MongoDB is a simple database adapte to link with Angular
