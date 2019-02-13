@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <thead>
+  <tr>
+      <td>Chopper Name</td>
+      <td>Chopper Brand</td>
+      <td>Place Capacity</td>
+      <td colspan="2">Actions</td>
+  </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let chopper of chopperes">
+      <td>{{ chopper.chopper_name }}</td>
+      <td>{{ chopper.chopper_brand }}</td>
+      <td>{{ chopper.chopper_place }}</td>
+      <td><a [routerLink]="['edit', chopper._id]" class="btn btn-primary">Edit</a></td>
+      <td><a [routerLink]="['']" (click) = "deleteChopper(chopper._id)" class="btn btn-danger">Delete</a></td>
+    </tr>
+  </tbody>
+</table>
