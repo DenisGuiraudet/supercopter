@@ -56,11 +56,18 @@ No hosting for now
 > Stimute a real user
 
 ## How to run
+
 **First download [Docker](https://www.docker.com/get-started)**  
 To run docker execute 'docker run -p 80:80 --name angular-container -d angular'
 
 ### Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve -o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+### MongoDB server
+Run `nodemon server`. This will auto regenerate the api.
+
+### Nodemon server
+Run `mongod` to start the db serve.
 
 ### Code scaffolding
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
