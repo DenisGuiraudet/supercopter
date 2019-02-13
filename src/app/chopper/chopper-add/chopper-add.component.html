@@ -1,0 +1,40 @@
+<div class="card">
+  <div class="card-body">
+    <form [formGroup]="angForm" novalidate>
+      <div class="form-group">
+        <label class="col-md-4">Chopper Name</label>
+        <input type="text" class="form-control" formControlName="chopper_name" #chopper_name />
+      </div>
+      <div *ngIf="angForm.controls['chopper_name'].invalid && (angForm.controls['chopper_name'].dirty || angForm.controls['chopper_name'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['chopper_name'].errors.required">
+          Chopper Name is required.
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-md-4">Chopper Brand </label>
+        <input type="text" class="form-control" formControlName="chopper_brand" #chopper_brand />
+      </div>
+      <div *ngIf="angForm.controls['chopper_brand'].invalid && (angForm.controls['chopper_brand'].dirty || angForm.controls['chopper_brand'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['chopper_brand'].errors.required">
+          Chopper Brand is required.
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-md-4">Chopper Place Number </label>
+        <input type="text" class="form-control" formControlName="chopper_place" #chopper_place />
+      </div>
+      <div *ngIf="angForm.controls['chopper_place'].invalid && (angForm.controls['chopper_place'].dirty || angForm.controls['chopper_place'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['chopper_place'].errors.required">
+          Chopper Place Number is required.
+        </div>
+      </div>
+      <div class="form-group">
+        <button (click)="addChopper(chopper_name.value, chopper_brand.value, chopper_place.value)"
+            [disabled]="angForm.pristine || angForm.invalid" 
+            class="btn btn-primary">
+            Add Chopper
+         </button>
+      </div>
+    </form> 
+  </div>
+</div>
