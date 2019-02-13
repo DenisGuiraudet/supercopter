@@ -18,3 +18,9 @@ install:
 
 script:
 - npm run build
+
+notifications:
+  slack:
+    rooms:
+	  - courscollab2018:HRwgR54EPpeVvzRVDIwYc6BZ#team_supercopter_ci
+
