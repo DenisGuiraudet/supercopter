@@ -5,7 +5,6 @@ School year 2018 - 2019
 
 Chopper renting simulator
 ## Team
-
 Denis Guiraudet, Matthieu Orriere, Arnaud Sibade and last but not least Alexandre Pausé
 
 
