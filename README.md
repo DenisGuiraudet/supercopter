@@ -89,7 +89,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ### Further help
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Dev Tracking
 
+### User story
+Go to GitHub, we use Issues as User stories.  
+In the `Projects` tab, go to `Issues`, don't forget to move your Issue as you process it.
 
-
-
+### Pull Request
+Make a new PR (Pull Request) and link it to the associated Issue.
+In the `Projects` tab, go to `PR`, don't forget to move your PR as you process it.
