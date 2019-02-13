@@ -5,7 +5,7 @@ node_js:
 - '8'
 
 dist: trusty
-sudo: false
+sudo: true
 cache:
   directories:
   - node_modules
@@ -17,5 +17,4 @@ install:
 - npm install
 
 script:
-- npm run test
 - npm run build
