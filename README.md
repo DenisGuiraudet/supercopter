@@ -15,25 +15,24 @@ Join us on [Slack](https://courscollab2018.slack.com/)
 Channel : team_supercopter
 
 ### Specs 
-The project specs are specify just here in this Readme
+The project specs are specified just here in this Readme
 
 ### Following
+
  	We chose to manage the tasks and issues with [GitHub Project](https://github.com/DenisGuiraudet/ICE_supercopter/projects/1)
-	PR management make with a link to issues
+	PR management made with a link to issues
 
 ### Repository
 https://github.com/DenisGuiraudet/supercopter.git
 
 ### IC
 Travis : https://travis-ci.com/DenisGuiraudet/supercopter
-Knowledge of this techno by some group members
+Why ? Previous knowledge of this techno by some group members
 
 ### Build
-This is going to evolve and change
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ### Deployment
-TO DO
 We don't have any hosting for now
 
 ### Environement Dev
@@ -41,14 +40,18 @@ Docker
 
 ### Techno
  - Angular.io / SASS / html5
+	Why ?	
 	Knowledge of Angular by some group members and want to improve our skill
 
  - mongoDB
 	MongoDB is a simple database adapte to link with Angular
 
+ - Bootstrap
+	We have choose to add Bootstrap because we havent implement wet and we need a frontend component
+
 ### Code Style
 	TS lint
-	We choose to use TS lint cause is the most used linter for TypeScript
+Why ?	We chose to use TS lint cause is the most used linter for TypeScript
 
 ### Test 
  - Karma
