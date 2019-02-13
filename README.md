@@ -32,7 +32,6 @@ Why ? Previous knowledge of this techno by some group members
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ### Deployment
-TO DO
 We don't have any hosting for now
 
 ### Environement Dev
