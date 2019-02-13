@@ -1,6 +1,6 @@
 ---
 name: Feature
-about: Nouvelle Feature
+about: New Feature
 title: ''
 labels: ''
 assignees: ''
@@ -9,6 +9,6 @@ assignees: ''
 
 ## Description
 
-## Tâches
+ ## Tasks
 
-- [ ] Tests concluants
+- [ ] Successful tests
