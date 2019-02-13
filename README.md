@@ -19,7 +19,7 @@ The project specs are specify just here in this Readme
 
 ### Following
  	We chose to manage the tasks and issues with GitHub Project
-	PR management make with a link to issues
+	PR management made with a link to issues
 
 ### Repository
 https://github.com/DenisGuiraudet/supercopter.git
