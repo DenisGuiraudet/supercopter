@@ -47,7 +47,7 @@ Why ?	Knowledge of Angular by some group members and want to improve our skill
 
 ### Code Style
 	TS lint
-	We choose to use TS lint cause is the most used linter for TypeScript
+Why ?	We chose to use TS lint cause is the most used linter for TypeScript
 
 ### Test 
  - Karma
