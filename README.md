@@ -11,11 +11,11 @@ Denis Guiraudet, Matthieu Orriere, Arnaud Sibade and last but not least Alexandr
 
 ## Project description
 
-### Slack 
+### Slack
 Join us on [Slack](https://courscollab2018.slack.com/)  
 Channel : team_supercopter
 
-### Specs 
+### Specs
 The project specs are specified just here in this Readme
 
 ### Following
@@ -57,21 +57,19 @@ No hosting for now
 
 ## How to run
 
-**First download [Docker](https://www.docker.com/get-started)**  
-To run docker execute `docker run -p 80:80 --name supercopter -d supercopter`  
-Then run `docker build -t supercopter .`
+**Download [Docker](https://www.docker.com/get-started)**  
+To build docker execute `docker build -t supercopter .`  
+Then run `docker run -p 80:80 --name supercopter -d supercopter`
 
 Go to `http://localhost:80/`
 
-To stop execute `docker stop`.
-
-### Development server
-Run `ng serve -o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-### MongoDB server
-Run `nodemon server`. This will auto regenerate the api.
+To stop execute `docker stop supercopter`, then execute `docker rm supercopter`.
 
 ### Nodemon server
+**Download [nodemon](https://nodemon.io/)**  
+Run `nodemon server`. This will auto regenerate the api.
+
+### MongoDB server
 Run `mongod` to start the db serve.
 
 ### Code scaffolding
