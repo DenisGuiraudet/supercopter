@@ -3,20 +3,32 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { PageLoginComponent } from './pages/page-login/page-login.component';
-import { PageListingComponent } from './pages/page-listing/page-listing.component';
+import { ChopperAddComponent } from './chopper/chopper-add/chopper-add.component';
+import { ChopperGetComponent } from './chopper/chopper-get/chopper-get.component';
+import { ChopperEditComponent } from './chopper/chopper-edit/chopper-edit.component';
+import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { ChopperService } from './chopper.service';
+
+
+
 
 @NgModule({
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlimLoadingBarModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   declarations: [
     AppComponent,
-    PageLoginComponent,
-    PageListingComponent
+    ChopperAddComponent,
+    ChopperGetComponent,
+    ChopperEditComponent
   ],
-  providers: [],
+  providers: [ ChopperService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
