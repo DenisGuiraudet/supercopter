@@ -9,6 +9,12 @@ Denis Guiraudet, Matthieu Orriere, Arnaud Sibade and last but not least Alexandr
 
 ## Mock-up
 
+### Create a Chopper
+![New Chopper](ux/new.png)
+
+### Listing existing Choppers
+![Chopper Listing](ux/list.png)
+
 ## Project description
 
 ### Slack
