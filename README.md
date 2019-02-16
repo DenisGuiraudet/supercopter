@@ -57,6 +57,9 @@ No hosting for now
 
 ## How to run
 
+**Download [Node](https://nodejs.org/en/)**  
+Execute `npm install`
+
 **Download [Docker](https://www.docker.com/get-started)**  
 To build docker execute `docker build -t supercopter .`  
 Then run `docker run -p 80:80 --name supercopter -d supercopter`
@@ -73,7 +76,8 @@ Run `nodemon server`. This will auto regenerate the api.
 Run `mongod` to start the db serve.
 
 ### Code scaffolding
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component.  
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ### Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
