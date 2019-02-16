@@ -58,12 +58,12 @@ No hosting for now
 ## How to run
 
 **First download [Docker](https://www.docker.com/get-started)**  
-To run docker execute `docker run -p 80:80 --name supercopter -d supercopter`  
-Then run `docker build -t supercopter .`
+To build docker execute `docker build -t supercopter .`  
+Then run `docker run -p 80:80 --name supercopter -d supercopter`
 
 Go to `http://localhost:80/`
 
-To stop execute `docker stop`.
+To stop execute `docker stop supercopter`, then execute `docker rm supercopter`.
 
 ### Development server
 Run `ng serve -o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
